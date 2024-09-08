@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.black-block {
+    background: #000000;
+    color: #ffffff;
+}
+
+.highlight-black {
+    color: #f800c2;
+}
+
+.red-block {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.purple-block {
+    width: 300px;
+    color: #000000;
+    background: #e700dd;
+}
+
+.highlight-purple {
+    color: #ffffff;
+    background: #ff9999;
+}
+
+/* Некоторые цвета написал словами потому что палитра цветов по какой-то причине то появляется, то перестает работать :(*/
