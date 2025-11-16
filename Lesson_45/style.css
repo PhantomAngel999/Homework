@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+}
+
+.main-container {
+    max-width: 100vw;
+    height: 490px;
+
+    overflow-y: scroll;
+    background: #b1ffb4;
+
+    padding: 10px;
+    margin: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+.cardblock {
+    width: 200px;
+    height: 200px;
+
+    margin: 10px;
+    padding: 10px;
+
+    border-radius: 20px;
+    border: 3px solid #000;
+
+    background: #70ff75;
+    color: #000000;
+}
